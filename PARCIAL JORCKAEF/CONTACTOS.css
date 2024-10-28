@@ -1,0 +1,154 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Fondo gris claro */
+    
+}
+
+/* Encabezado y menú de navegación */
+header {
+    background-color: #ff0000; /* Fondo rojo */
+    padding: 10px;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+header img{
+    width: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+  
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* Sección de banner */
+.banner {
+    background-color: #ff0000; /* Fondo rojo */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.banner h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 0;
+}
+/*video*/
+.video1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenido{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #f0f0f0;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.contenido h1 {
+    font-size: 150px;
+}
+
+.contenido p{
+    font-size: 20px;
+    
+}
+
+/*Seccion de contactos*/
+form{
+    margin-left: 700px;
+    margin-bottom: 40px;
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+    background-color: #ff0707;
+    min-width: 300px;
+    margin-top: 40px;
+ }
+
+.inputgroup{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-wrap: wrap;
+ }
+
+h2{
+    color: #f0f0f0;
+    font-size: 40px;
+ }
+ 
+label{   
+    color: #f0f0f0;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+ }
+
+input, textarea { 
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 2px solid rgb(255, 0, 0);
+    color: black;
+    outline: none;
+ }
+
+input::placeholder, textarea::placeholder{
+    color: #000000;
+}
+
+.btn { 
+    font-size: 16px;
+    color: #000000;
+    border-radius: 25px ;
+    background-color: #fcfcfc;
+    box-shadow: 0 0 20px black(25,254,0,04);
+}
+
+.btn:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+/* Sección de pie de página */
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+}
