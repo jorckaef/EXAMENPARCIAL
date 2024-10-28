@@ -55,15 +55,13 @@ nav ul li a {
 }
 
 /* Sección de categorías */
-
 .categorias {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    padding: 60px 0;
+    gap: 20px;
+    padding: 40px 0;
     background-color: white;
-    
 }
 
 .categoria-card {
@@ -73,7 +71,6 @@ nav ul li a {
     border-radius: 10px;
     width: 400px;
     text-align: center;
-    
 }
 
 .categoria-card img {
@@ -89,36 +86,30 @@ nav ul li a {
     gap: 20px;
     padding: 40px 0;
     background-color: #f8f8f8;
-    
 }
 
 .info-card {
     background-color: white;
     border: 2px solid #ddd;
     border-radius: 10px;
-    width: 400px;
-    height: 235px;
-    padding: 30px;
+    width: 200px;
+    padding: 20px;
     text-align: center;
-    
-    
 }
 
 .info-card h3 {
     color: #007bff;
     font-weight: bold;
-    font-size: 25px;
 }
 
 .info-card p {
     font-size: 0.9rem;
     color: #333;
-    
 }
 
 /* Sección de pie de página */
 footer {
-    background-color: #000000;
+    background-color: #333;
     color: white;
     padding: 20px;
     text-align: center;
